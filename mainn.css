@@ -1,0 +1,92 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+    margin: 0;
+    perspective: 1000px;
+}
+
+
+.box {
+    width: 300px;
+    height: 350px;
+    background-color: #242582;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    position: absolute;
+    transition: transform 0.3s ease;
+    border: 2px solid;
+    border-radius: 30px;
+    border-color: white;
+    padding-top: 2%;
+}
+
+.corner {
+    position: absolute;
+    width: 50%;
+    height: 50%;
+}
+
+#top-left {
+    top: 0;
+    left: 0;
+}
+
+#top-right {
+    top: 0;
+    right: 0;
+}
+
+#bottom-left {
+    bottom: 0;
+    left: 0;
+}
+
+#bottom-right {
+    bottom: 0;
+    right: 0;
+}
+
+#email {
+    border-radius: 20px;
+    position: absolute;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    top: 41%;
+    left: 44.5%;
+}
+
+#email1 {
+    position: absolute;
+    color: white;
+    top: 38%;
+}
+
+#password1 {
+    position: absolute;
+    color: white;
+    top: 50%;
+}
+
+#password {
+    position: absolute;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    top: 53%;
+    left: 44.5%;
+}
+
+#send {
+    border-radius: 20px;
+    position: absolute;
+    top: 60%;
+    left: 48%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+#send:hover {
+    cursor: pointer;
+}
